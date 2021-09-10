@@ -28,6 +28,10 @@ nav, header {
     float: left;
 }
 
+.logo_sign {
+    margin-top: 2rem;
+}
+
 .logo_sign item {
     float: right;
     background-color: darkgoldenrod;
@@ -38,7 +42,7 @@ nav, header {
 
 header {
     width: 80%;
-    height: 50px;
+    height: 35px;
     background-color: blue;
 }
 
@@ -51,6 +55,7 @@ nav {
 nav li {
     display: inline-block;
     margin: 0 1.5rem;
+    line-height: 35px;
 }
 
 /* #region  */
