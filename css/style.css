@@ -30,6 +30,10 @@ nav, header {
 
 .logo_sign item {
     float: right;
+    background-color: darkgoldenrod;
+    padding: .5rem .8rem;
+    color: black;
+    border-radius: 25px;
 }
 
 header {
