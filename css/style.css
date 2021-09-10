@@ -1,0 +1,58 @@
+/* #region Essentials */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    width: 100nw;
+    background-color: aqua;
+    position: relative;
+}
+
+/* #endregion Header*/
+
+nav, header {
+    margin: auto;
+}
+
+.logo_sign img {
+    float: left;
+}
+
+.logo_sign item {
+    float: right;
+}
+
+header {
+    width: 80%;
+    height: 50px;
+    background-color: blue;
+}
+
+nav {
+    background-color: crimson;
+    width: 40%;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1.5rem;
+}
+
+/* #region  */
+
+/* #endregion */
+
+/* #region Header */
+
+/* #endregion */
