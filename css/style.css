@@ -27,11 +27,11 @@ body {
 }
 
 .back_cfblue {
-    background-color: cornflowerblue;
+    background-color: #8ea1e1;
 }
 
 .back_black {
-    background-color: black;
+    background-color: #23272a;
 }
 
 .text_white {
@@ -237,16 +237,20 @@ this, I'll change it when I understand how.
 
 /* #region Footer */
 
+footer {
+    color: white;
+}
+
 .bottom_links {
     background-color: black;
 }
 
 .links_container {
-    background-color: rosybrown;
     margin: auto;
-    width: 80%;
+    width: 65%;
     height: 80%;
     padding: 2rem;
+    border-bottom: 1px solid #4a5882;
 }
 
 .links_container div {
@@ -261,8 +265,21 @@ this, I'll change it when I understand how.
     width: 32%;
 }
 
+.column span {
+    line-height: 1rem;
+    vertical-align: middle;
+}
+
+.column h3 {
+    width: 50%;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+}
+
 .links_container ul {
     list-style: none;
+    margin-top: 1rem;
 }
 
 .column li {
@@ -271,6 +288,28 @@ this, I'll change it when I understand how.
 
 .column img {
     height: 1rem;
+}
+
+.columns>ul li:first-child, .column h3 {
+    color: #8ea1e1;
+}
+
+.columns>ul li {
+    margin-bottom: .6rem;
+}
+
+.bottom_logoSign {
+    width: 65%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.bottom_logoSign img {
+    float: left;
+}
+
+.bottom_logoSign item {
+    float: right;
 }
 
 /* #endregion */
