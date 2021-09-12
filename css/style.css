@@ -46,7 +46,7 @@ body {
 
 /* #region Debug */
 
-.debug .image_text {
+.debug .bottom_links {
     height: 500px;
 }
 
@@ -169,15 +169,14 @@ li>a:hover {
 
 /* #endregion */
 
-/* #region Vocals Background */
-
 /* 
 NOTES: The following section "kinda" work, it's not
 responsive and it breaks easily. I'm not satisfied with 
 this, I'll change it when I understand how.
 */
 
-/* 
+/* #region Vocals Background */
+
 .vocals {
     background-color: rgba(0, 0, 0, .2);
     position: relative;
@@ -202,7 +201,7 @@ this, I'll change it when I understand how.
     bottom: -132px;
     left: 0;
     transform: rotate(180deg);
-} */
+}
 
 /* #endregion */
 
@@ -232,6 +231,46 @@ this, I'll change it when I understand how.
     height: 2rem;
     background-image: url(../img/stars.svg);
     background-size: contain;
+}
+
+/* #endregion */
+
+/* #region Footer */
+
+.bottom_links {
+    background-color: black;
+}
+
+.links_container {
+    background-color: rosybrown;
+    margin: auto;
+    width: 80%;
+    height: 80%;
+    padding: 2rem;
+}
+
+.links_container div {
+    float: left;
+}
+
+.links_container .thin {
+    width: 16%;
+}
+
+.links_container .large {
+    width: 32%;
+}
+
+.links_container ul {
+    list-style: none;
+}
+
+.column li {
+    display: inline-block;
+}
+
+.column img {
+    height: 1rem;
 }
 
 /* #endregion */
