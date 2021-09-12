@@ -27,12 +27,20 @@ body {
     background-color: white;
 }
 
+.back_cfblue {
+    background-color: cornflowerblue;
+}
+
 .back_black {
     background-color: black;
 }
 
 .text_white {
     color: white;
+}
+
+.v_spacer {
+    margin-bottom: 10rem;
 }
 
 /* #endregion */
@@ -158,6 +166,28 @@ li>a:hover {
 .text_block p {
     margin-top: 1rem;
     font-size: 1.3rem;
+}
+
+/* #endregion */
+
+/* #region techBlock */
+
+.techImage_block img {
+    width: 100%;
+}
+
+.techText_block h2 {
+    font-size: 2rem;
+}
+
+.techText_block, .techSubtext_block {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.techSubtext_block h3 {
+    margin-bottom: 20px;
 }
 
 /* #endregion */
