@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-clearfix::after {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -146,7 +146,7 @@ li>a:hover {
 }
 
 .image_text .text_block {
-    float: right;
+    float: left;
     width: 30%;
     padding-top: 1rem;
 }
