@@ -171,9 +171,37 @@ li>a:hover {
 
 /* #region Vocals Background */
 
-/* .vocals {
-    background-image: url(../img/wave.svg);
-    background-size: 200px;
+/* 
+NOTES: The following section "kinda" work, it's not
+responsive and it breaks easily. I'm not satisfied with 
+this, I'll change it when I understand how.
+*/
+
+/* 
+.vocals {
+    background-color: rgba(0, 0, 0, .2);
+    position: relative;
+}
+
+.top_wave, .bot_wave {
+    opacity: .2;
+}
+
+.top_wave, .bot_wave {
+    position: absolute;
+    height: 30px;
+    width: 100%;
+}
+
+.top_wave {
+    top: -132px;
+    left: 0;
+}
+
+.bot_wave {
+    bottom: -132px;
+    left: 0;
+    transform: rotate(180deg);
 } */
 
 /* #endregion */
