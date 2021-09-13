@@ -54,6 +54,10 @@ body {
     width: 10%
 }
 
+.col-15 {
+    width: 15%
+}
+
 .col-50 {
     width: 50%;
 }
@@ -62,12 +66,26 @@ body {
     width: 65%;
 }
 
+.col-70 {
+    width: 70%;
+}
+
 .col-84 {
     width: 84%
 }
 
 .f-left {
     float: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.tag_button a {}
+
+.td_none a:link, .td_none a:hover, .td_none a:active, .td_none a:visited {
+    text-decoration: none;
 }
 
 /* #endregion */
@@ -98,8 +116,11 @@ nav, header {
     z-index: 1;
 }
 
+.logo_sign .row {
+    margin: auto;
+}
+
 nav {
-    width: 70%;
     text-align: center;
 }
 
@@ -152,7 +173,7 @@ li>a:hover {
     margin-bottom: 30px;
 }
 
-.hero_buttons span {
+.hero_buttons a {
     margin: 0 15px
 }
 
@@ -267,7 +288,6 @@ footer {
 .links_container {
     margin: auto;
     width: 65%;
-    height: 80%;
     padding: 2rem;
     border-bottom: 1px solid #4a5882;
 }
@@ -335,7 +355,11 @@ footer {
     float: right;
 }
 
-logo_sign #signature {
+footer .logo_sign {
+    margin-top: 1rem;
+}
+
+#signature {
     color: turquoise;
 }
 
