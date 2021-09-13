@@ -17,6 +17,10 @@ body {
     position: relative;
 }
 
+/* #endregion */
+
+/* #region Utility */
+
 .tag_button {
     padding: .5rem .8rem;
     border-radius: 25px;
@@ -40,6 +44,22 @@ body {
 
 .v_spacer {
     margin-bottom: 10rem;
+}
+
+.col-6 {
+    width: 6%;
+}
+
+.col-10 {
+    width: 10%
+}
+
+.col-84 {
+    width: 84%
+}
+
+.f-left {
+    float: left;
 }
 
 /* #endregion */
@@ -70,17 +90,8 @@ nav, header {
     z-index: 1;
 }
 
-.logo_sign img {
-    float: left;
-}
-
-.logo_sign .tag_button {
-    float: left;
-    background-color: white;
-}
-
 nav {
-    width: 40%;
+    width: 70%;
     text-align: center;
 }
 
