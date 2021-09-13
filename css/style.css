@@ -242,7 +242,7 @@ footer {
 }
 
 .bottom_links {
-    background-color: black;
+    background-color: #23272a;
 }
 
 .links_container {
@@ -263,6 +263,10 @@ footer {
 
 .links_container .large {
     width: 32%;
+}
+
+.social li {
+    margin: .5rem;
 }
 
 .column span {
