@@ -54,6 +54,14 @@ body {
     width: 10%
 }
 
+.col-50 {
+    width: 50%;
+}
+
+.col-65 {
+    width: 65%;
+}
+
 .col-84 {
     width: 84%
 }
@@ -327,7 +335,7 @@ footer {
     float: right;
 }
 
-#signature {
+logo_sign #signature {
     color: turquoise;
 }
 
